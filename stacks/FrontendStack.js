@@ -14,7 +14,7 @@ export function FrontendStack({ stack, app }) {
       app.stage === "prod"
         ? {
             domainName: "dev.froom.io",
-            domainAlias: "test.froom.io",
+            // domainAlias: "test.froom.io",
           }
         : undefined,
     path: "frontend",
